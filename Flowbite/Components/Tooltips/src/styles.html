@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/public/output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tooltip styles</title>
+</head>
+<body>
+    <button data-tooltip-target="tooltip-light" data-tooltip-style="light" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        Light tooltip
+    </button>
+    <div id="tooltip-light" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 tooltip">This is a light tooltip
+        <div class="tooltip-arrow" data-propper-arrow></div>
+    </div>
+        
+
+    <button data-tooltip-target="tooltip-dark" type="button" class="ms-3 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Darktooltip</button>
+    <div id="tooltip-dark" role="tooltip" class="absolute z-10 invinsible inline-block px-3 py-2.5 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">This is a dark tooltip
+        <div class="tooltip-arrow" data-propper-arrow></div>
+    </div>
+
+    <script src="../node_modules/flowbite/dist/flowbite.js"></script>
+</body>
+</html>

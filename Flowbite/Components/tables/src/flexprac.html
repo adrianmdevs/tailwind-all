@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/public/output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+</head>
+<body>
+    <div class="flex flex-col col-span-3 space-y-4 md:flex-row md:row-span-4 md:space-x-6 items-center justify-center space-x-5 bg-gray-300 h-96 mb-6 rounded-lg">
+        <div class="border h-20 w-30 flex-auto bg-black text-white px-3 py-2 rounded-lg hover:text-black hover:bg-white">Item 1. This item should contain this content also
+            <div class="bg-blue-300 text-black">This is a child within the first item.</div>
+            <div class="bg-red-300 text-black">This is the second child.</div>
+        </div>
+        <div class="border h-20 w-30 flex-grow bg-white text-black rounded-lg px-3 py-2 hover:text-white hover:bg-black">Item 2. This item should also contain this content</div>
+        <div class="border h-20 w-30 flex-shrink bg-blue-500 text-white px-3 py-2 rounded-lg hover:text-black hover:bg-white">Item 1. This item should contain this content also</div>
+        <div class="border h-20 w-30 bg-red-300 text-blue-600 rounded-lg px-3 py-2 hover:text-white hover:bg-black">Item 2. This item should also contain this content</div>
+    </div>
+    <div class=" bg-blue-300 w-full h-96 text-center">
+        <div class="bg-red-100 w-1/2 border inset-0 left-0 bottom-0 rounded shadow-md m-4">First</div>
+        <div class="bg-purple-700 w-1/2 border rounded shadow-md m-4">Second </div>
+        <div class="bg-pink-600 w-1/2 border rounded shadow-lg m-4 ">Third</div>
+        <div class="bg-slate-400 w-1/2 border rounded shadow-lg m-4">Fourth</div>
+        <div class="bg-slate-400 w-1/2 border rounded shadow-lg m-4">Fifth</div>
+    </div>
+</body>
+</html>

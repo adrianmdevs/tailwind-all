@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/public/output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Containers demo</title>
+</head>
+<body>
+    <header class="">
+        <nav class="flex items-stretch">
+            <ul>
+            <li>>Home</li>
+            <li>About us</li>
+            <li>Contact us</li>
+            </ul>
+        </nav>
+
+    </header>
+    <!--Project commences here-->
+    <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div class="bg-blue-200 border">Charles</div>
+        <div class="bg-green-200">Antony</div>
+        <div class="bg-yellow-200">Ken</div>
+        <div class="bg-purple-300">Athanus</div>
+        <div class="bg-red-200">Mwepesi</div>
+        <div class="bg-cyan-400">Jackline</div>
+        <div class="bg-indigo-200">Millet</div>
+        <div class="bg-pink-400">Susan</div>
+
+    </div> <br> <br> -->
+    <!-- <div class="bg-no-repeat h-screen bg-cover items-center justify-center" style="background-image: url('/img/alex-chumak-zGuBURGGmdY-unsplash\ \(2\).jpg');">
+        
+        <div class="flex justify-center items-center text-gray-500">
+            <div class="pt-3">
+                <h1>This is tailwindcss</h1>
+                <h2>And what an adventure this is!!</h2>
+            </div>
+        </div>
+
+        <button class=" border border-gray-500 rounded-md bg-gray-300 hover:shadow-md hover:bg-blue-300 hover:text-white active:bg-red-300"> <span class="p-12">Click me</span></button>
+
+        <button type="button" class="inline-block">Button</button>
+
+    </div> -->
+    <!-- <div>
+        <button type="button" class="bg-blue-300 rounded text-white text-xs font-medium uppercase leading-normal px-4 py-2 transition duration-150 ease-in-out">Primary button</button>
+        <button type="button">Secondary</button>
+        <button type="button">Tertiary</button>
+    </div> -->
+    <!--Cards-->
+
+<div class="bg-gray-300 grid grid-cols-2">
+    <div class="rounded-lg p-6 shadow-lg block container my-5 mx-auto w-1/3 bg-gray-300">
+        <h5 class="mb-2 text-xl font-medium leading-normal text-neutral-800">Murigu Gitonga</h5>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-800">This is my business card for front-end development <br>
+            please click the button to see more <br> about my web design business
+        </p>
+        <button type="button" class="inline-flex border rounded-md bg-slate-300  pr-6 pb-2 pt-2.5 pl-2 text-xs font-medium uppercase leading-normal text-white">See More
+            <svg fill="white" class="h-5 w-5" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+              </svg>
+        </button>
+
+        <!--Card with Image-->
+        
+    </div>
+    <div class="border border-dotted container mt-9 rounded-md my-5 mx-auto w-1/3 bg-gray-300 hover:bg-gray-300 hover:shadow-md">
+        <a href="https://limesol.com/">
+            <img src="/img/limed.png" class="rounded-t-lg " alt="Lime logo">
+        </a>
+        <div class="p-6 h-1/2">
+                <h5 class="my-2 text-xl font-bold leading-tight">Lime Fibre</h5>
+                <p class="text-base text-neutral-700">Join our extensive family and enjoy the pleasure of surfing using one of the <br>
+                    best ISP providers in Kenya</p>
+            
+
+        <button type="button" class="inline-block rounded bg-gray-300 hover:bg-gray-400 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white">Get connected</button>
+        </div>
+        
+    </div>
+</div>
+
+<!--Pricing -->
+<section class="mb-28 text-center mt-9 bg-white ">
+    <div>
+        <img src="/img/limed.png" class="" alt="">
+    </div>
+    <h3 class="mt-10 font-semibold text-7xl text-gray-700 uppercase">Dabo Dabo <br><span class="text-pink-500">Home Fiber <br></span>Internet</h3>
+    <div class="mb-5 mt-3 text-red-500 font-medium text-lg leading-tight">The fast,reliable affordable secure fiber Internet</div>
+    
+    <div class="grid gap-8 lg:grid-cols-2">
+        <!--Simba-->
+        <div class="block rounded-lg text-center shadow-lg bg-green-500 mr-2 ml-10">
+            <div class="border-b-2 border-slate-100 px-7 py-3 text-white ">
+                <h5 class="mb-4 mt-4 text-lg font-semibold uppercase">Simba</h5>
+                <h4 class="mb-4 flex flex-col items-center space-y-3">
+                    <span class="text-line line-through">5Mbps</span>
+                    <span class="text-2xl font-bold">8Mbps</span>
+                    <span class="text-lg font-semibold">For Only 2,000</span>
+                    <button class="relative inline-flex font-bold bg-green-900 rounded-md px-4 py-2">Get Connected
+                        <svg fill="none" class="h-3 w-3" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.288 15.038a5.25 5.25 0 017.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 011.06 0z"></path>
+                          </svg>
+                    </button>
+                </h4>
+                
+            </div>
+        </div>
+        <!--Kifaru-->
+        <div class="block rounded-lg bg-white text-center shadow-lg text-white mr-10 ml-2 object-contain">
+            <div class=" rounded-lg border-slate-100 px-7 py-3 bg-pink-700">
+                <h5 class="my-4 text-lg font-semibold uppercase ">Kifaru</h5>
+                    <h4 class="mb-4 flex flex-col items-center space-y-3">
+                        <span class="text-line line-through">10Mbps</span>
+                        <span class="text-2xl font-bold">25Mbps</span>
+                        <span class="text-lg font-semibold">For Only 2,300</span>
+                        <button class="relative inline-flex font-bold border rounded-lg bg-pink-900 px-4 py-2">Get Connected
+                            <svg fill="black" class="h-3 w-3" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.288 15.038a5.25 5.25 0 017.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 011.06 0z"></path>
+                            </svg>
+                        </button>
+                    </h4>
+            </div>
+            
+        </div>
+        <!--Nyati-->
+        <div class="block rounded-lg bg-blue-950 text-center shadow-lg text-white mr-2 ml-10">
+            <div class="border-b-2 border-slate-100 px-7 py-3">
+                <h5 class="my-4 text-lg font-semibold uppercase">Nyati</h5>
+                <h4 class="mb-4 flex flex-col items-center space-y-3">
+                    <span class="text-line line-through">16Mbps</span>
+                    <span class="text-2xl font-bold">32Mbps</span>
+                    <span class="text-lg font-semibold">For Only 3,100</span>
+                    <button class="relative inline-flex font-bold">Get Connected
+                        <svg fill="none" class="h-3 w-3" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.288 15.038a5.25 5.25 0 017.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 011.06 0z"></path>
+                          </svg>
+                    </button>
+                </h4>
+            </div>
+        </div>
+        <div class="block rounded-md bg-purple-800 text-center mr-10 ml-2 text-white shadow-lg">
+            <div class="border-b-2 border-slate-100 px-7 py-3">
+                <h5 class="my-4 text-lg font-semibold uppercase">Ndovu</h5>
+                <h4 class="mb-4 flex flex-col items-center space-y-3">
+                    <span class="text-line line-through">10Mbps</span>
+                    <span class="text-2xl font-bold">20Mbps</span>
+                    <span class="text-lg font-semibold">For Only 2,000</span>
+                    <button class="relative inline-flex font-bold">Get Connected
+                        <svg fill="none" class="h-3 w-3" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.288 15.038a5.25 5.25 0 017.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 011.06 0z"></path>
+                          </svg>
+                    </button>
+                </h4>
+            </div>
+        </div>
+    </div>
+    <div class="my-7 font-bold tracking-wider font-serif text-lg">
+        Get to stream the hottest movies & latest series on weCast <br> for <span class="uppercase text-green-500">free</span>
+        for all limeFibre customers
+    </div>
+    <div class="flex flex-col gap-4">
+        <span class="font-thin tracking-wider text-xs uppercase">offer valid till 31st Dec</span>
+        <span class="text-pink-500 tracking-wider">Terms & Conditions apply</span>
+    </div>
+    <div class="flex flex-col gap-0 items-start ml-5 bg-gray-100">
+        <span class="text-green-400 mt-6">Fast,reliable.Secure Affordable</span> <br>
+        <div>To get connected Call or WhatsApp us on: 0730654444 or
+            <svg fill="none" class="h-2 w-2" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"></path>
+              </svg> sales@limefibre.ke
+            </div>
+        
+    </div>
+</section>
+
+<footer>
+     
+</footer>
+    
+    
+</body>
+</html>
